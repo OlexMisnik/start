@@ -1,0 +1,13 @@
+.nav {
+  background: #f1f1f1;
+}
+
+.nav ul {  
+  display: flex;
+  padding-left: 0;  
+}
+.nav-item>li {  
+  list-style: none;
+  margin-right: 148px;
+  color: #6c6c6c;
+}

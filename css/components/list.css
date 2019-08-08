@@ -1,0 +1,8 @@
+.list {
+  list-style-type: none;
+}
+.list-item>li {
+  color: #24b6e2;
+  text-decoration: underline;
+  list-style-type: none;
+}

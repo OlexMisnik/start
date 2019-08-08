@@ -1,0 +1,24 @@
+.grid {
+  font-size: 0;
+}
+.grid > * {
+  /* font-size: 1rem; */
+  display: inline-block;
+  padding: 10px;
+  font-family: ﻿Tahoma, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 12pt;
+  color: rgba(51, 51, 51, 255);
+  text-align: left;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-item > li {
+  font-family: Tahoma;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #32323;
+  list-style-type: none;
+}

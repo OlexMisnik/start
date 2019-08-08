@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-weight: 400;
+  color:#000000;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma
+  Regular (400) normal  
+  ArialMT  
+  Regular (400) normal  
+  BauhausCTT  
+  Light (300) normal;
+  font-size: 12pt;
+  /* color: rgba(51, 51, 51, 255); */
+  text-align: left;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+p, ul, ol, figure {
+  /* margin: 0 0 10px 0; */
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {
+  color: #6c6c6c;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.image-icon {
+  width: 18px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+/* letter-primary мы используем только под этот макет */
+.letter-primary::first-letter {
+
+}
+hr {
+  height: 1px;
+  background: #cacaca;
+}
+td {
+  padding-right: 66px;
+}
+.tab-border {
+  height: 1px;
+  background: #24b6e1;
+}
+.footer-border {
+  height: 1px;
+  background: #cacaca;
+}
+.footer-item-style {
+  color: #24b6e2;
+}

@@ -1,0 +1,24 @@
+.card {
+  
+  /* border-block-color: #cacaca; */
+
+}
+
+.card-image {
+
+}
+
+.card-description {
+
+}
+h2 {
+  border-bottom: 4px;
+}
+.card-title {
+  font-family: Tahoma;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #24b5e1;
+}
