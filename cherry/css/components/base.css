@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-weight: 400;
+  color:#000000;
+  /* line-height: 1.5; */
+  font-family: ArialMT;
+}
+
+body { 
+  background:#e3e5e4;
+  margin: 0 auto;
+}
+.footer{
+  background:#282d33;
+}
+
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  background:white;
+}
+.container-footer {
+  width: 980px;
+  margin: 0 auto;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 10px 0;
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {  
+width: 75px;
+height: 12px;
+font-family: ArialMT;
+font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+text-decoration: underline;
+color: #d08b98;  
+}
+
+a:hover, .link:hover {
+  text-decoration: underline;  
+  color: rgb(55, 13, 122)
+}
+a:active {
+  color: green;  
+ }   
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  
+}
+
+/* letter-primary мы используем только под этот макет */
+.letter-primary::first-letter {
+  color: #ff1744;
+}
+.letter {
+  color: #ff1744;
+}

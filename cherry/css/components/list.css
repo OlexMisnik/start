@@ -1,0 +1,72 @@
+.list {
+  list-style-type: none;
+}
+.list-conteiner{
+  display: flex;
+}
+.list-item {
+  padding: 10px; 
+  display: block; 
+  width: 230px; 
+  margin: 0 10px 10px 0; 
+}
+ .list-title {
+  padding-left: 10px;
+}
+.li-style {
+  list-style-type: none;
+}
+.li-black {
+    list-style-type: none;
+}  
+.li-black:before{
+    content: "\2022" ; 
+    color:black; 
+    padding-right: 10px;
+    margin-left: -20px;
+}  
+.ol-footer {
+  margin-left: 0;
+  padding-left: 0;  
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #85898f;
+}
+.ul-footer {
+  margin-left: 10px;
+  padding: 0;  
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #85898f;
+}
+.ul-list-one {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5c646e;
+  padding-left: 16px;
+}
+.ul-list  {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5c646e;
+  padding-left: 0px;
+}
+.ol-list  {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #5c646e;
+  padding-left: 15px;
+}
+.ul-footer li{
+  list-style-type: none;
+}
+.ul-footer li:before{
+  content: "\2022"; 
+  color: red; 
+  padding-right: 10px;
+}

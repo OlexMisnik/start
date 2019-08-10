@@ -1,0 +1,45 @@
+.card {
+}
+.card-image {   
+  padding: 10px; 
+  display: block; 
+  margin: 0 10px 10px 0; 
+  text-align: center; 
+ }
+.card-description {
+  font-size: 12px;
+
+line-height: 20px;
+
+font-weight: 400;
+
+color: #5c646e;
+
+}
+figcaption {
+  text-align: left;
+  font-size: 18px;
+
+line-height: 14px;
+
+font-weight: 700;
+
+color: #282d33;
+}
+.table-title {
+  margin: 0 2px 0 10px;
+}
+.footer{
+  background:#282d33;
+}
+.footer-list {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+.footer-item {
+  color: white;
+  padding: 10px; 
+  display: block; 
+  margin: 0 auto; 
+}

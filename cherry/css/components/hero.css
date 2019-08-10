@@ -1,0 +1,63 @@
+.hero {
+  background:#282d33;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;   
+}
+
+.hero-title {
+  margin: 18px 0 0 0;
+  font-size: 30px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #ff1744,#ffffff;
+}
+.hero-subtitle {
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #c9c7c7;
+}
+
+.hero-secondary-title {
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  
+} 
+.hero-description {
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #c9c7c7; 
+}
+
+.wrapper {
+  background:#282d33;
+  color:#ffffff;
+  height: 72px;
+  padding-top: 30px;
+  padding-left: 305px;
+}
+.logo-title {
+  font-size: 30px;
+  line-height: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#ffffff;
+  margin: 0 auto;   
+}
+.logo-subtitle {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #c9c7c7;  
+  margin: 0 auto;
+}
+.logo-href, .logo-href:visited, .logo-href:hover{
+  text-decoration: none;
+  color: white;
+}
